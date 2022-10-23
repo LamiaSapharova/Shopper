@@ -1,0 +1,296 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+  body { 
+	font-family: Arial;
+  }
+  .img-cover {
+	padding: 10rem 0;
+	background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/covers/cover-21.jpg");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .container {
+	width: 1140px;
+	margin: auto;
+  }
+  .img-cover-title {
+	font-family: Arial;
+	color: #fff;
+	margin: auto;
+	width: 41.66667%;
+	text-align: center;
+	font-weight: 500;
+  }
+  h1 {
+	font-size: 2.75rem;
+  }
+  h2 {
+	font-size: 2.25rem;
+  }
+  .our-story {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 6rem 0;
+  }
+  .our-story-images {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 0 2rem;
+  }
+  .our-story-img-1 {
+	width: 50%;
+	text-align: left;
+  }
+  .our-story-img-2-div {
+	text-align: right;
+  }
+  .our-story-img-2 {
+	width: 75%;
+	margin-top: -12rem;
+  }
+  .our-story-text {
+	box-sizing: border-box;
+	padding: 0 0.5rem;
+	font-family: Arial;
+	width: 41.66667%;
+	margin-top: 2.5rem;
+  }
+  .our-story-text-title {
+	margin-bottom: 2rem;
+  }
+  .our-story-text-title h6 {
+	font-weight: 500;
+	color: #909090;
+	text-transform: uppercase;
+  }
+  .our-story-text-p p {
+	margin-bottom: 1.5rem;
+	color: #767676;
+	font-size: 1.25rem;
+  }
+  .fashion {
+	padding: 6rem 0;
+	font-family: Arial;
+  }
+  .fashion-title {
+	text-align: center;
+  }
+  .fashion-text {
+	margin-top: 4rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  .fashion-text-alt {
+	box-sizing: border-box;
+	width: 41.66667%;
+	padding: 0 0.5rem;
+	text-align: left;
+  }
+  .fashion-text-alt p {
+	margin-bottom: 1.5rem;
+	font-size: 1.125rem;
+	color: #525252;
+  }
+  .fashion-btn {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.5rem;
+  }
+  .fashion-btn a {
+	text-decoration: none;
+	padding: 14px 28px;
+	background-color: #1f1f1f;
+	border-color: #1f1f1f;
+	color: #fff;
+  }
+  .fashion-btn a:hover {
+	cursor: pointer;
+  }
+  .our-story-img-right {
+	width: 50%;
+	float: right;
+  }
+  .our-story-img-left-div {
+	text-align: left;
+  }
+  .our-story-img-left {
+	width: 75%;
+	margin-top: -12rem;
+  }
+  .section-5 {
+	background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/patterns/pattern-1.svg");
+	background-color: rgb(255 115 97 / 1);
+	width: 100%;
+	padding: 6rem 0;
+  }
+  .sec-5-text {
+	box-sizing: border-box;
+	padding: 0 1rem;
+	width: 66.66667%;
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	font-family: Arial;
+	font-size: 1.5rem;
+  }
+  .images-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 6rem;
+  }
+  .image {
+	width: 41.66667%;
+	box-sizing: border-box;
+	padding: 0 1rem;
+  }
+  .image img {
+	margin-bottom: 2rem;
+	width: 100%;
+  }
+  .img-right {
+	margin-top: 6rem;
+  }
+  .reviews {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	text-align: center;
+  }
+  .reviews-text {
+	padding: 0 8rem 1rem;
+	font-size: 1.5rem;
+	cursor: auto;
+	line-height: 2rem;
+  }
+  .review-date {
+	color: #767676;
+  }
+  .shopper {
+	text-align: center;
+	margin-top: 3rem;
+	width: 100%;
+	padding: 8rem 0;
+	background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/covers/cover-15.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .shopper-btn a {
+	background-color: #fff;
+	padding: 14px 40px;
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+  }
+  .sec-9 {
+	padding: 3rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  }
+  .sec-9-item {
+	width: 25%;
+	box-sizing: border-box;
+	padding: 0 1rem;
+	margin-bottom: 1.5rem;
+  }
+  .sec-9-item h3 {
+	font-size: 0.875rem;
+	margin-bottom: 0.125rem;
+  }
+  .sec-9-item p {
+	font-size: 0.9375rem;
+	color: #767676;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+	.container {
+	  width: 960px;
+	}
+	.img-cover-title {
+	  width: 50%;
+	}
+	.sec-5-text {
+	  width: 83%;
+	}
+	.reviews-text {
+	  padding: 0 5rem 1rem;
+	}
+	.sec-9-item {
+	  width: 50%;
+	}
+  }
+  
+  @media only screen and (max-width: 992px) {
+	.container {
+	  width: 720px;
+	}
+	.img-cover-title {
+	  width: 66.66667%;
+	}
+	.our-story-img-2 {
+	  margin-top: -8rem;
+	}
+	.our-story-img-left {
+	  margin-top: -8rem;
+	}
+	.our-story-text {
+	  width: 50%;
+	}
+	.fashion-text-alt {
+	  width: 50%;
+	}
+	.our-story-text {
+	  margin-top: 0.5rem;
+	}
+	.sec-5-text {
+	  width: 100%;
+	}
+	.image {
+	  width: 50%;
+	}
+	.reviews-text {
+	  padding: 0 3rem 1rem;
+	}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.container {
+	  width: 540px;
+	}
+	.img-cover-title {
+	  width: 100%;
+	}
+	.our-story-images {
+	  width: 100%;
+	}
+	.our-story-text {
+	  width: 100%;
+	}
+	.fashion-text-alt {
+	  width: 100%;
+	}
+	.image {
+	  width: 100%;
+	}
+	.img-right {
+	  margin-top: 0;
+	}
+	.sec-9-item {
+	  width: 100%;
+	}
+  }
+  
+  @media only screen and (max-width: 576px) {
+	.container {
+	  width: 100%;
+	}
+	.our-story-img-2 {
+	  margin-top: -8rem;
+	}
+  }

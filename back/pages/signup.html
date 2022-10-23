@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/signup" method="post" enctype="multipart/form-data">
+        <input type="email" name="email" id="email">
+        <input type="password" name="password" id="password" placeholder="password">
+        <input type="text" name="first_name" id="first_name" placeholder="first_name">
+        <input type="text" name="last_name" id="last_name" placeholder="last_name">
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="number" name="telephone" id="telephone" placeholder="telephone">
+        <input type="text" name="gender" id="gender" placeholder="gender">
+        <input type="date"name="DofB" id="DofB">
+        <input type="file" name="image" id="image">
+        <input type="hidden" name="csrf" value="" id="csrf">
+        <button>submit</button>
+    </form>
+    <a href="/signin">signin</a>
+    <script> 
+    let csrf = document.getElementById('csrf');
+    fetch('http://localhost:8080/signup').then((response) => {
+  // for each response header, log an array with header name as key
+  csrf.value = response.headers.get('csrfToken');
+});
+
+    </script>
+</body>
+</html>

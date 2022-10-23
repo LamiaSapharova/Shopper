@@ -1,0 +1,99 @@
+.elnurregister{
+ .boss .header {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+
+  color: rgb(28, 28, 26);
+  font-family: "Dancing Script";
+  font-size: 3rem;
+}
+body {
+  margin: 0;
+}
+
+.Reg-form-container .form {
+  /* margin-left: 5rem;
+  margin-top: 2rem; */
+  box-shadow: 15px;
+
+  width: 100%;
+}
+.footer {
+  margin-top: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form .form-body {
+  display: inline-block;
+
+  width: 35rem;
+  padding: 1.5rem;
+  height: 30rem;
+
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form .form-body label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.form .form-body input {
+  width: 100%;
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* background: rgb(209, 207, 207); */
+  border-color: #ffffff;
+  border: 1px solid rgb(154, 150, 150);
+  transition: 0.5s;
+}
+.form .form-body input:hover {
+  background: white;
+}
+.form .form-body .btn {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+
+  border: none;
+
+  width: 10rem;
+  height: 2.5rem;
+  color: aliceblue;
+  margin-top: 1rem;
+}
+.form-body h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding: 0;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.lastinput {
+  display: flex;
+  justify-content: space-between;
+}
+.lastinput .password input {
+  width: 15rem;
+}
+.lastinput .confirm-password input {
+  width: 18rem;
+}
+}

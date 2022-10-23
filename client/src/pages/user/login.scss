@@ -1,0 +1,119 @@
+.elnurslogin{
+
+.logo_side h1 {
+  margin-top: 0;
+  padding: 0;
+  margin-left: 1rem;
+  color: rgb(28, 28, 26);
+  font-family: "Dancing Script";
+  font-size: 2.5rem;
+}
+body {
+  margin: 0;
+}
+.login_side {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 12px 29px 81px 0px rgb(255, 255, 255);
+
+  box-shadow: 0 0 10px 10px white outset;
+}
+
+.login-container form {
+
+  width: 35rem;
+  border-radius: 0.5rem;
+
+  height: 28rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.login-container .input-container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.login-container .input-container {
+  width: 100%;
+}
+.login-container .input-container .mail {
+  width: 100%;
+  border: none;
+}
+.login-container .input-container .pasword {
+  border: none;
+  width: 100%;
+}
+
+.login-container .input-container input {
+  width: 90%;
+  height: 3rem;
+  margin: 1rem;
+  margin-top: 2rem;
+
+  background: #ffff;
+  border-width: 0.1px;
+  transition: 0.5s;
+}
+.login-container .input-container label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.login-container .button_container input {
+  background-color: black;
+  margin-left: 2rem;
+  border: none;
+
+  width: 6rem;
+  height: 3rem;
+  color: aliceblue;
+  margin-top: 0.2rem;
+}
+.login-container .button_container a {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.login-container .input-container input:hover {
+  background: white;
+}
+.login_side .member {
+  margin: 2rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.Checkboxx .Check_inp {
+  padding: 0;
+  margin: 0;
+  /* margin-left: 0.7rem; */
+  display: flex;
+  width: 15rem;
+}
+.Checkboxx .Check_inp input {
+  width: 1.2rem;
+  margin-left: 2rem;
+}
+.Checkboxx .Check_inp p {
+  margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: small;
+}
+.Checkboxx {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.Checkboxx .forgot {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+}

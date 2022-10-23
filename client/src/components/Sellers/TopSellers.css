@@ -1,0 +1,147 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+.bloc-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin: 20px 13% 20px 13%;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.active-tabs {
+  background: white;
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+button {
+  border: none;
+}
+
+.content-tabs {
+  display: flex;
+  flex-grow: 1;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.content {
+  background: white;
+  padding-top: 20px;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+}
+
+.active-content {
+  display: block;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1140px;
+}
+
+.items .item {
+  display: block;
+  width: 253px;
+  margin-bottom: 60px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: 1px solid #f3efef;
+}
+
+.items .item img {
+  width: 253px;
+  height: 300px;
+}
+
+.items .item .badgeintop {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #1f1f1f;
+  position: absolute;
+  margin-top: -265px;
+  margin-left: 0px;
+}
+
+.items .item .item-info {
+  margin-top: 30px;
+  text-align: start;
+}
+
+.items .item .item-info a, .items .item .item-info .price {
+  color: #767676;
+}
+
+.items .item .item-info h5 {
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  color: #1f1f1f;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 1400px) {
+  .py-24 .container {
+    max-width: 1519px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .items {
+    margin-left: -13%;
+    margin-right: -13%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .items {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .items {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .items .item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
